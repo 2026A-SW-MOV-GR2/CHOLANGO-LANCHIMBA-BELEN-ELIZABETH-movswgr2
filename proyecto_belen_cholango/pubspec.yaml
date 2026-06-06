@@ -1,0 +1,33 @@
+name: proyecto_red_seguridad
+description: Red y Almacenamiento Seguro - FIS EPN
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP Networking
+  http: ^1.2.0
+
+  # SharedPreferences (clave-valor plano)
+  shared_preferences: ^2.2.3
+
+  # Jetpack DataStore equivalente en Flutter
+  # (usamos shared_preferences con async como equivalente)
+
+  # EncryptedSharedPreferences equivalente
+  flutter_secure_storage: ^9.0.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
